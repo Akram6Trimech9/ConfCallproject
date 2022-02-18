@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+}
+.container{
+  display: flex;
+  margin: auto ;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+#img{
+    border: 2px #231F20;
+    margin-left: -10px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+width: 550px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background: #5F94D9 0% 0% no-repeat padding-box;
+    border-radius: 63px;
+    font: normal normal normal 50px/90px Pacifico;
+    letter-spacing: 0px;
+    color: #F6F6F6;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 6px 0  #7daae6 ;
+    margin-bottom:6px ;
+    transition: all 0.2s;}
+    .title:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #7daae6 ;
+      }
+      .title:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #7daae6  ;
+      }
+    
+.join{
+    color: white;
+}
+.card{
+    margin-top:20px;
+width: 500px;
+display: flex;
+flex-direction: row
+;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 20px;
+    margin-left: 1px;
+width: 150px;
+height: 60px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 57px;
+opacity: 1;
+box-shadow: 0 6px 0  #858585;
+    margin-bottom:6px ;
+    transition: all 0.2s;
+    border: none;
+}
+    .signup:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #858585 ;
+      }
+      .signup:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #858585  ;
+      }
+    
+.signuptitle{
+font: normal normal normal 30px/70px Pacifico;
+letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left:190px ;
+margin-top: 20px;
+float: right;
+width: 150px;
+height: 60px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 57px;
+opacity: 1;
+border: none;
+box-shadow: 0 6px 0  #858585 ;
+    margin-bottom:6px ;
+    transition: all 0.2s;}
+    .signin:hover{
+        transform: translateY(-2px);
+        box-shadow: 0  8px 0  #858585 ;
+      }
+      .signin:active{
+        transform: translateY(2px);
+        box-shadow: 0 4px 0 #858585  ;
+      }
+    
+.signintitle{
+text-align: left;
+font: normal normal normal 30px/70px Pacifico;
+letter-spacing: 0px;
+color: #231F20;
+opacity: 1;
+
+}
+
+a { text-decoration: none; color: black; }
